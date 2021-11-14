@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@500&display=swap');
+:root {
+    --colorwhitebg: #fffffc;
+    --redbrandcolor: #e63946;
+    --navybrandcolor: #457b9d;
+    --darkbrandcolor: #222121;
+
+}
+
+body {
+    background-color: var(--coloronebg);
+    font-family: 'Rubik', sans-serif;
+   
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content:space-around;
+    margin: 0 auto;
+   
+    width: 98%;
+    margin-top: 25px;
+    align-items: center;
+    border-bottom: solid var(--darkbrandcolor);
+    border-top: var(--darkbrandcolor) solid;
+}
+
+li.nav {
+    list-style-type: none;
+    
+    font-size: 20px;
+    
+    text-align: center;
+    object-fit: contain;
+        
+
+}
+
+li#logo {
+    width: 20%;
+    margin-right: 40%;
+}
+
+img.logoimg {
+    max-height: 100px;
+    max-width: 100%;
+    min-height: 60px;
+    min-width: 90px;
+    
+}
