@@ -10,7 +10,22 @@
 body {
     background-color: var(--coloronebg);
     font-family: 'Rubik', sans-serif;
+    color: var(--darkbrandcolor);
    
+}
+
+h1 {
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
 }
 
 
@@ -49,4 +64,104 @@ img.logoimg {
     min-height: 60px;
     min-width: 90px;
     
+}
+
+
+div#heroImage {
+    
+   
+    
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+canvas#hero {
+    
+    border: var(--darkbrandcolor) 1px solid;
+    width: 80%;
+    
+    object-fit: contain;
+    
+}
+
+
+section.portfoliosection {
+    display: flex;
+    
+    width: 80%;
+    margin: 0 auto;
+    
+    justify-content: space-between;
+}
+
+
+div.projectcont {
+    
+    width: 25%;
+
+    min-width: 100px;
+    
+    
+
+    
+    
+    
+
+
+}
+
+
+
+
+div.projectimg {
+    text-align: center;
+    vertical-align: middle;
+    
+    margin-bottom: 10px;
+    padding: 15px;
+    transition: border 2s;
+    border: 3px transparent solid;
+    
+    
+    
+    
+}
+
+div.projectimg:hover {
+    box-sizing: border-box;
+    border: 3px black solid;
+}
+
+.PortfolioLink {
+
+    max-width: 100%;
+
+    min-width: 30%;
+    box-shadow: 10px -5px var(--redbrandcolor);
+    transition: box-shadow 2s;
+    
+
+
+
+}
+
+.PortfolioLink:hover {
+    box-shadow: 10px 5px var(--darkbrandcolor);
+    
+
+}
+
+
+
+
+div.projectdesc {
+
+    margin-top: 25px;
+    background-color: yellow;
+
+}
+
+div.projectdesc p {
+    text-align: center;
 }
