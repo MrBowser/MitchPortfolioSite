@@ -12,27 +12,41 @@
     <header>
         <nav>
             <ul>
-                <li class="nav" id="logo"> <img src="images\Portfolio Logo.png" class="logoimg"> </li>
-                <li class="nav">Portfolio</li>
-                <li class="nav">Education</li>
-                <li class="nav">Work Experience</li>
+                <li class="nav" id="logo"> <a href="#"><img src="images\Portfolio Logo.png" class="logoimg"></a> </li>
+                
+                
+                <li class="nav"><a href="#Portfolio">Portfolio</a></li>
+                <li class="nav"><a href="#Educationnav" >Education</a></li>
+                <li class="nav"><a href="#worknav">Work Experience</a></li>
+                <li class="nav" id="endnav"><a href="#ContactMeNav">Contact Me</a></li>
+                
             </ul>
         </nav>
 
     </header>
 
+    
+
     <main>
         <section class="firstpart">
-            <h1>Software Engineer & Developer</h1>
+            
+            
+            
             <div id="heroImage">
                 <canvas id="hero"></canvas>
+                <div id="abpos"><h1 id="CTA">Hi! I'm Mitch & I'm a
+                   <span id="rotatehero">Developer</span>
+                </h1></div>
+                
                 
             </div>
+            
+            
         </section>
 
 
 
-        <h2>Portfolio</h2>
+        <h2 id="Portfolio">Portfolio</h2>
 
         <section class="portfoliosection">
 
@@ -67,17 +81,140 @@
                     </ul></div>
             </div>
 
+            
+
+
+        </section>
+
+        <h4>Technology Stack</h4>
+        
+        <div class="techline">
+            <div class="techicon"></div>
+            <div class="techicon"></div>
+            <div class="techicon"></div>
+            <div class="techicon"></div>
+            <div class="techicon"></div>
+            <div class="techicon"></div>
+        </div>
+
+        <h2 id="Educationnav">Education</h2>
+
+        <section class="Education" id="intertrig">
+            
+
+            <div id="intertest">
+                <h3>College Background</h3>
+                <ul>
+                    
+                    <li>Western Govenor's University: B.S. Software Development</li>
+                    <li>Indiana University Bloomington: Master of Public Affairs</li>
+                    <li>Virginia Tech: B.S. Sociology</li>
+                    
+                </ul>
+
+            </div>
+
+            <h3>Certifications</h3>
+
+            <ul>
+                <li>Google Data Analytics Certification</li>
+                <li>Google Search Ads Certification</li>
+                <li></li>
+                <li>Comptia Project+ Certification</li>
+                <li>Comptia A+ Certification</li>
+            </ul>
+
+
+
+
         </section>
 
 
-        <h2>Work Experience</h2>
 
 
-        <section>
+        <h2 id="worknav">Work Experience</h2>
+
+
+        <section class="Work" id="trig2">
 
             <div>
+                <h4 class="title">Seattle Children's Hospital: Market Research Program Manager</h4>
+                <ul class="job">
+                    <li>Tenure: September 2019 - September 2021</li>
+                    <li>
+                        Responsibilities:
+                        <ul>
+                            <li>Manage and implement consumer insights program, including creation of the annual research strategy, project budgeting, and vendor selection</li>
+                            <li>Design and conduct thirty studies annually from end-to-end, including brand tracking, employee engagement surveys, ad testing, and audience trends research, resulting in the discovery of drivers of choice, the creation of new brand benchmarks, and the uncovering of key consumer touchpoints</li>
+                            <li>Advise senior leaders and internal teams on how to optimize marketing strategies based on insights gained from research</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4 class="title">Starbucks: Market Research Associate Manager</h4>
+                <ul class="job">
+                    <li>Tenure: April 2018 - September 2019</li>
+                    <li>
+                        Responsibilities:
+                        <ul>
+                            <li>Measured the impact of product modifications, policy changes, and disruptive events on employee behavior, culture, and operational metrics</li>
+                            <li>Created and deployed surveys tracking retail employee perceptions and behavioral metrics over time, assessing how changes in employee perceptions impacted business outcomes</li>
+                            <li>Presented reports and provided actionable recommendations to senior leadership based on analysis and findings</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4 class="title">Gartner: Senior Customer Experience Analyst</h4>
+                <ul class="job">
+                    <li>Tenure: September 2015 - April 2018 </li>
+                    <li>
+                        Responsibilities:
+                        <ul>
+                            <li>Performed qualitative and quantitative analyses via in-depth client interviews and surveys to uncover opportunities that further optimize Voice of Customer programs </li>
+                            <li>Lead consultative calls, meetings, and workshops with clients outlining survey design practices, employee behaviors, and customer expectations</li>
+                            <li>Authored white papers, guides, and delivered webinars to provide Marketing and Customer Experience Teams with techniques to optimize both survey design and customer experience</li>
+                        </ul>
+                    </li>               
                 
             </div>
+
+
+
+        </section>
+
+
+
+        <h2 id="ContactMeNav">Contact Me</h2>
+
+        <section class="ContactInfo">
+
+
+            <form>
+                <h3>Interested in working together?<br> Leave a message below!</h3>
+
+                <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                </div>
+
+                <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"><br>
+                </div>
+
+                <div id="textmsg"><label for="message">Message:</label><br>
+                <textarea name="message" id="message" cols="60" rows="15" placeholder="Tell me a bit why you want to chat :)"></textarea>
+                </div>
+
+
+                <div>
+                    <input type="button" value="Let's Connect!" id="submitbutton">
+
+                </div>
+
+
+
+
+            </form>
+            
 
 
 
@@ -91,6 +228,7 @@
     </main>
 
     <footer>
+        <p>Made with &#10084; By Mitch</p>
 
     </footer>
     <script src="jsmain.js"></script>
